@@ -7,7 +7,7 @@ hamburgerBtn.addEventListener('click', () => {
   menu.classList.toggle('visible');
 });
 
-closeMenu.addEventListener('click', () => {
+closeMenu.addEventListener('onsubmit', () => {
   menu.classList.remove('visible');
   menu.classList.toggle('hidden');
 });
